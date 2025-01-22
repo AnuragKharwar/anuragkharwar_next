@@ -13,7 +13,7 @@ import React from "react";
 
 const SocialIcons = () => {
   return (
-    <div className="flex flex-row gap-4  items-center">
+    <div className="flex flex-row gap-4  items-center mt-2">
       <a
         href="https://github.com/anuragkharwar"
         target="_blank"
@@ -47,9 +47,10 @@ const ProfileSection = () => {
           FrontEnd Developer
         </h1>
         <SocialIcons />
+
         <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
           Developer at{" "}
-          <a className="text-white " href="www.idssoft.com">
+          <a className="font-semibold " href="www.idssoft.com">
             IDS{" "}
           </a>{" "}
           working as SDE-1 in the product team having 1.5+ years of experience.

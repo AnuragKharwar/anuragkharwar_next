@@ -1,11 +1,13 @@
 import React from "react";
-import Themebutton from "@/Components/ui/themebutton";
-import Header from "@/Components/ui/Header/Header";
+
+import Header from "@/Components/Header/Header";
+import Projects from "@/Components/Projects/Projects";
 
 const page = () => {
   return (
-    <div className=" px-8  ">
+    <div className="flex flex-col  h-full px-8 gap-16">
       <Header />
+      <Projects />
     </div>
   );
 };
