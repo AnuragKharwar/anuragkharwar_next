@@ -1,5 +1,6 @@
 "use client";
 import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
+import Image from "next/image";
 
 export default function ProjectCard({ title, description, href, icon, tags }) {
   // const tags = ["GitHub", "React", "JamStack"];
@@ -25,7 +26,20 @@ export default function ProjectCard({ title, description, href, icon, tags }) {
       <div className="relative h-full ">
         <span className="absolute w-[80%] -bottom-px right-px h-px bg-gradient-to-r from-blue-500/0 via-blue-500/40 to-blue-500/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0"></span>
         <span className="absolute w-px -left-px top-[10%] h-[80%] bg-gradient-to-b from-blue-500/0 via-blue-500/40 to-blue-500/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0"></span>
-
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          whileHover={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8 }}
+          className="absolute inset-0 z-[10]"
+        >
+          <Image
+            src={`/images/project.png`}
+            alt="Project Image"
+            layout="fill"
+            objectFit="cover"
+            className="transition-transform duration-500"
+          />
+        </motion.div>
         <div className="  flex flex-col items-start  dark:border-gray-800 rounded p-4 relative">
           {/* */}
 

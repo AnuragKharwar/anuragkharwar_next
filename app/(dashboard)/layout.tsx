@@ -1,4 +1,4 @@
-import Footer from "@/Components/ui/footer";
+// import Footer from "@/Components/ui/footer";
 import Navbar from "@/Components/ui/navbar";
 import React from "react";
 

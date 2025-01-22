@@ -16,12 +16,12 @@ const links = [
   },
 
   {
-    name: "Snippets",
-    link: "/snippets",
+    name: "Experience",
+    link: "/experience",
   },
   {
-    name: "Resources",
-    link: "/resources",
+    name: "Timeline",
+    link: "/timeline",
   },
 ];
 
@@ -35,29 +35,22 @@ const mobileLinks = [
     link: "/projects",
   },
   {
-    name: "Blog",
-    link: "/blog",
+    name: "Experience",
+    link: "/experience",
   },
 
   {
-    name: "Snippets",
-    link: "/snippets",
+    name: "Timeline",
+    link: "/timeline",
   },
-  {
-    name: "Resources",
-    link: "/resources",
-  },
+
   {
     name: "Freelancing",
     link: "/freelance",
   },
   {
-    name: "Box Shadows",
-    link: "/boxshadows",
-  },
-  {
-    name: "FreeCodeCamp",
-    link: "/freecodecamp",
+    name: "Blogs",
+    link: "/blogs",
   },
 ];
 

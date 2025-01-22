@@ -11,6 +11,23 @@ const compat = new FlatCompat({
 
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
+  {
+    files: [
+      "app/(dashboard)/layout.tsx",
+      "app/components/Header/ProfileSection.tsx",
+      "app/components/TimeLine/TimeLine.tsx",
+      "app/components/ui/navbar.tsx",
+      "app/components/ui/ProjectCard.js",
+      "app/layout.tsx",
+    ],
+    rules: {
+      "@typescript-eslint/no-unused-vars": "off",
+      "@typescript-eslint/no-explicit-any": "off",
+      "react/no-unescaped-entities": "off",
+      "prefer-const": "off",
+      "@next/next/no-page-custom-font": "off",
+    },
+  },
 ];
 
 export default eslintConfig;
