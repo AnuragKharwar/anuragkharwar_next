@@ -35,104 +35,43 @@ const FullTimeline = () => (
     <Divider />
     <Year>2018</Year>
     <ul>
-      <Step title="Internship - Intel 🤘🏻">
-        Got an Internship at Intel as a Machine Learning Intern. Developed a
-        Pothole Detection System & Face Averaging system using Machine Learning.
+      <Step title="12th Grade 🤘🏻">
+        Completed 12th from LAXMI INTERNATINAL SCHOOL sarigam,vapi.
       </Step>
-      <Step title="Entrepreneurial Workshops 🔩">
-        Organised workshops (Part of E-Cell) on topics like Entrepreneurship and
-        Web Development.
+      <Step title="Head-Boy 🎖️">
+        During my 12th Grade, I got Elected as the Head-Boy of the school. I was
+        responsible for organizing and leading various activities and events.
       </Step>
-      <Step title="Full-Stack Journey 🔩">
-        Learnt NodeJS, MongoDB, MySQL along with React and the best practices to
-        build products and web apps which can scale easily.
+      <Step title="Got Into an Internatinal  School 🎓">
+        Not able to understand English as i was comming from HINDI background,
+        Got weak in studies grades went down.
       </Step>
     </ul>
     <Divider />
     <Year>2016</Year>
     <ul>
-      <Step title="Startup - Aceternity 💣">
-        Started a web development and digital marketing agency from scratch.
-        Generated revenue and designed websites for clients.
+      <Step title="Moved to Gujarat - Vapi 🌆">
+        I moved to Vapi from my Hometown(Varanasi) along with my father.
       </Step>
-      <Step title="React Enthusiast ⚒">
+
+      <Step title="10th Grade 📜">
+        Scored 9.4/10 CGPA in 10th Grade. For me it was huge.
+      </Step>
+      {/* <Step title="React Enthusiast ⚒">
         Was introducted to React, took up a course on Udemy to get the hang of
         it. I haven't stopped since then.
       </Step>
       <Step title="Open Source Contributions ⚙️">
         Started contributing to open source on a daily basis. Contributed to
         smaller projects to learn more on the contributing part.
-      </Step>
+      </Step> */}
     </ul>
     <Divider />
-    <Year>2015</Year>
+
+    {/* <Year>1998</Year>
     <ul>
-      <Step title="Started College 🔥">
-        Opted for Computer Science B.Tech Degree from University of Petroleum
-        and Energy Studies, Dehradun.
-      </Step>
-      <Step title="Introduced to Open Source ⚡️">
-        My Domain was Open Source Software and Open Standards. I got to know
-        about Free Software Foundation, Git and GitHub and Linux systems.
-      </Step>
-      <Step title="jQuery fanboy 🙌🏻">
-        Started working with jQuery, I was amazed by the level of simplicity it
-        provided back then.
-      </Step>
-      <Step title="C and C++ 🙌🏻">
-        Started learning logics and basic programming fundamentals with Object
-        Oriented Programming. C was intimidating, C++ was fun.
-      </Step>
-      <Step title="First Back 😂">
-        I consider this as an achievement. If you're a CS Engineer, you must
-        have a back in Mathematics.
-      </Step>
-    </ul>
-    <Divider />
-    <Year>2014</Year>
-    <ul>
-      <Step title="Completed 12th Grade 📜">
-        Completed 12th grade with 93.6% Marks in Science stream. Again, a big
-        achievement for me.
-      </Step>
-      <Step title="Developed interest in Web Development 🚀">
-        One of my friends introduced me to Web Development. I started off by
-        making simple HTML, CSS websites with a keen interest in design.
-      </Step>
-    </ul>
-    <Divider />
-    <Year>2012</Year>
-    <ul>
-      <Step title="Completed 10th Grade 📜">
-        Scored 9/10 CGPA in 10th Grade. For me it was huge.
-      </Step>
-      <Step title="Wanted to take up Humanities 🌪❤️">
-        I always wanted to become a Civil Servant. Though my parents didn't
-        agree and that let me to opt for Science stream.
-      </Step>
-      <Step title="Theatre and Drama 💂🏼‍♀️">
-        Acted in my first ever skit in school.
-      </Step>
-    </ul>
-    <Divider />
-    <Year>2008</Year>
-    <ul>
-      <Step title="First Computer 💻">
-        I played GTA San Andreas all day, everyday.
-      </Step>
-    </ul>
-    <Divider />
-    <Year>2001</Year>
-    <ul>
-      <Step title="Moved to Jaipur, Rajasthan 🌆">
-        We moved to Jaipur from our Hometown.
-      </Step>
-    </ul>
-    <Divider />
-    <Year>1998</Year>
-    <ul>
-      <Step title="An Enginner was Born in India 👶🏼 🍼" />
-    </ul>
+      <Step title="First Enginner was Born in My entire Blood Line 👶🏼 🍼" />
+    </ul> */}
   </>
 );
 
@@ -144,27 +83,42 @@ const Timeline = () => {
       <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
         Life Milestones and Progress
       </h3>
-      <Year>2023</Year>
+      <Year>2024</Year>
       <ul>
-        <Step title="300+ users on Algochurn 🤌🏻">
-          <a href="https://algochurn.com" target="__blank">
-            Algochurn
-          </a>{" "}
-          crossed 300 users and I couldn't be any happier.
+        <Step title="Officially beacame an Engineer 👨‍💻">
+          <a href="https://algochurn.com" target="__blank"></a> I honered with
+          B-Tech Degree from NIT-Surat in the presence of Hon’ble President of
+          India <span className="font-bold">Smt. Droupadi Murmu</span>
         </Step>
       </ul>
       <Divider />
+      <Year>2023</Year>
+      <ul>
+        <Step title="SDE-1 at IDS 🎉">
+          <a href="https://algochurn.com" target="__blank"></a> As a Software
+          Development Engineer. Working on their Flagship products
+        </Step>
+      </ul>
+      <ul>
+        <Step title="Got  Internship-Remote 🌏 ">
+          <a href="https://algochurn.com" target="__blank"></a> Started as a
+          front-end Intern at IDS. I was able to learn a lot from the experience
+          and the mentorship.
+        </Step>
+      </ul>
+
+      <Divider />
       <Year>2022</Year>
       <ul>
-        <Step title="Started working on Moonbeam 🤩">
-          Started working on{" "}
-          <a href="https://gomoonbeam.com" target="__blank">
-            Moonbeam{" "}
-          </a>
-          as a front-end developer. Building a chrome extension was the most fun
-          and challenging part.
+        <Step title="Exploring web development ">
+          Started exploring web development. I started learning HTML, CSS and
+          Javascript. I was also introduced to ReactJs.
         </Step>
-        <Step title="Algochurn crosses 200 users 🤌🏻">
+        <Step title="DSA and Competitive Programming 💻">
+          Started learning DSA and partecipating in competitive programming
+          contents.
+        </Step>
+        {/* <Step title="Algochurn crosses 200 users 🤌🏻">
           <a href="https://algochurn.com" target="__blank">
             Algochurn
           </a>{" "}
@@ -193,42 +147,38 @@ const Timeline = () => {
           Promoted to Senior Software Engineer - Worked on applications handling
           20,000+ users per day. Working on Web, Mobile, and even TV
           applications. 🔥
-        </Step>
+        </Step> */}
       </ul>
       <Divider />
       <Year>2021</Year>
       <ul>
-        <Step title="Built Tailwind Master Kit 🪁">
+        <Step title="Build DroneFlight Controller 🤖">
           Built{" "}
-          <a href="https://www.tailwindmasterkit.com">TailwindMasterKit</a>, A
-          SaaS marketplace for beautiful, handcrafted Website components built
-          with and for Tailwind supported websites. Built the components from
-          the ground up for React and HTML in 30+ categories.
+          <a href="https://www.tailwindmasterkit.com">DroneFlight Controller</a>
+          , A drone flight controller built using Arduino and a gyroscope. This
+          initiative garnered recognition from the esteemed SVNIT technical
+          club, Drishti.
         </Step>
-        <Step title="Created covidrescue.co.in 💊">
-          Created <a href="https://www.covidrescue.co.in">covidrescue.co.in</a>
-          to help people with verified leads on Oxygen, Remdesivir, Food, Beds,
-          ICU, Medicines and more.
+        <Step title="Got Nick Name (Tony Stark) 😁">
+          Automated my Hostel room including Fan, Light and Door locks was
+          controlled by voice commands and APP. My friends and juniors got
+          facinated and gave me Nick Name.
         </Step>
-        <Step title="Created Covid-19 Vaccination slots notification system 💉">
+        {/* <Step title="Created Covid-19 Vaccination slots notification system 💉">
           Integrated Vaccination slots notification system in covidrescue web
           app. Notified people whenever vaccination slot was available in their
           area and city.
-        </Step>
+        </Step> */}
       </ul>
       <Divider />
       <Year>2020</Year>
       <ul>
-        <Step title="Joined mroads 🎉">
-          {" "}
-          Joined{" "}
-          <span className="font-bold">
-            <span className="text-blue-500">m</span>roads
-          </span>{" "}
-          as a Software Development Engineer. Working on their Flagship product
-          as a Front-End Developer.
+        <Step title="Pandemic 💀">
+          Was a very tough time, Despite not having Laptop tring to manage
+          studies on Online-Mode and getting away from core understanding of
+          Electronics and Communication.
         </Step>
-        <Step title="Cleared GATE 2019 💯">
+        {/* <Step title="Cleared GATE 2019 💯">
           Cleared GATE 2019 after 8 months of continuous studies. I still hate
           Computer System Architecture & Organization.
         </Step>
@@ -239,23 +189,27 @@ const Timeline = () => {
         <Step title="Taught programming to students🥳">
           Taught fundamental programming to school students. It included Basic C
           programming, Introduction to Web Development and logic building.
-        </Step>
+        </Step> */}
       </ul>
       <Divider />
       <Year>2019</Year>
       <ul>
-        <Step title="Placements - Got Placed ✨">
-          Had 3 offers in Hand. 1 On-Campus and 2 Off-Campus in the Software
-          Developer (Full-Stack) roles.
+        <Step title="College NIT - SURAT 💻">
+          Excited to start my College Jounery got ECE branch looking forward to
+          become an <span className="font-bold">ECE-Engineer</span>.
         </Step>
-        <Step title="Full-Stack Applications 🚀">
+        <Step title="Yeah - Cracked JEE Mains ✨">
+          One year of preparation for JEE Mains. I was able to crack the exams
+          and got a good grade.
+        </Step>
+        {/* <Step title="Full-Stack Applications 🚀">
           Started freelancing, developed full-stack applications for clients
           ranging from E-Commerce stores to static landing pages.
         </Step>
         <Step title="GATE Preparation ⚛️">
           Started preparing for GATE (Graduate Aptitute Test in Engineering).
           Learnt all the Computer Science subjects again from scratch.
-        </Step>
+        </Step> */}
       </ul>
       {isShowingFullTimeline ? (
         <FullTimeline />

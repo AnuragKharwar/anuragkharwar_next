@@ -1,80 +1,71 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
+import { motion } from "framer-motion";
 import ProjectCard from "@/Components/ui/ProjectCard";
-const Projects = () => {
-  return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8">
-      <ProjectCard
-        title="Canvasly.io"
-        description="A tool created on top of exceli-draw to help you draw and edit diagrams. Supported BackEnd support for save works and team creations."
-        href="https://canvasly.io"
-        icon="canvasly"
-        tags={[
-          "Front-end",
-          "Next.js",
-          "React",
-          "Nest-js",
-          "TailwindCSS",
-          "Canvas",
-          "Exceli-Draw",
-        ]}
-      />
 
-      {/* <ProjectCard
-        title="Moonbeam"
-        description="Never write from scratch again. Kickstart your next great writing piece with Moonbeam. Your long-form writing AI assistant."
-        href="https://gomoonbeam.com"
-        icon="moonbeam"
-        tags={[
-          "Front-end",
-          "GPT-3",
-          "Next.js",
-          "React",
-          "TailwindCSS",
-          "Chrome Extension",
-        ]}
-      />
-      <ProjectCard
-        title="Moonbeam"
-        description="Never write from scratch again. Kickstart your next great writing piece with Moonbeam. Your long-form writing AI assistant."
-        href="https://gomoonbeam.com"
-        icon="moonbeam"
-        tags={[
-          "Front-end",
-          "GPT-3",
-          "Next.js",
-          "React",
-          "TailwindCSS",
-          "Chrome Extension",
-        ]}
-      />
-      <ProjectCard
-        title="Moonbeam"
-        description="Never write from scratch again. Kickstart your next great writing piece with Moonbeam. Your long-form writing AI assistant."
-        href="https://gomoonbeam.com"
-        icon="moonbeam"
-        tags={[
-          "Front-end",
-          "GPT-3",
-          "Next.js",
-          "React",
-          "TailwindCSS",
-          "Chrome Extension",
-        ]}
-      />
-      <ProjectCard
-        title="Moonbeam"
-        description="Never write from scratch again. Kickstart your next great writing piece with Moonbeam. Your long-form writing AI assistant."
-        href="https://gomoonbeam.com"
-        icon="moonbeam"
-        tags={[
-          "Front-end",
-          "GPT-3",
-          "Next.js",
-          "React",
-          "TailwindCSS",
-          "Chrome Extension",
-        ]}
-      /> */}
+const Projects = ({ title, data }: { title: string; data: any }) => {
+  const [showMore, setShowMore] = useState(false);
+
+  return (
+    <div className="flex flex-col h-full gap-4 lg:px-8 ">
+      <h1 className="text-3xl font-bold">{title}</h1>
+
+      {/* Initial Projects */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {data?.slice(0, 4).map((project: any) => (
+          <ProjectCard
+            title={project.title}
+            description={project.description}
+            href={project.link}
+            imageUrl={project.imgUrl}
+            tags={project.stack}
+            key={project.title}
+          />
+        ))}
+      </div>
+
+      {/* Show More Projects */}
+      {showMore && (
+        <motion.div
+          className="grid grid-cols-1 sm:grid-cols-2 gap-4"
+          initial={{ opacity: 0, scale: 0.95, y: 20 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          exit={{ opacity: 0, scale: 0.95, y: 20 }}
+          transition={{
+            duration: 0.8,
+            ease: [0.25, 0.8, 0.25, 1], // Adds a smooth cubic-bezier effect
+            when: "beforeChildren", // Stagger child animations
+            staggerChildren: 0.2, // Delay between child animations
+          }}
+        >
+          {data.slice(4, 8).map((project: any, index: number) => (
+            <motion.div
+              className="gap-4 flex"
+              key={index}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 10 }}
+              transition={{ duration: 0.7, ease: "easeOut" }}
+            >
+              <ProjectCard
+                title={project.title}
+                description={project.description}
+                href={project.link}
+                imageUrl={project.imgUrl}
+                tags={project.stack}
+              />
+            </motion.div>
+          ))}
+        </motion.div>
+      )}
+
+      {/* Toggle Button */}
+      <button
+        onClick={() => setShowMore(!showMore)}
+        className={`text-center items-center  text-teal-400`}
+      >
+        {showMore ? "Show Less" : "Show More"}
+      </button>
     </div>
   );
 };

@@ -17,10 +17,10 @@ const SocialIcons = () => {
       <a
         href="https://github.com/anuragkharwar"
         target="_blank"
-        className="flex gap-1 items-end bg-black rounded-lg px-2 py-1 text-teal-600"
+        className="flex gap-1 items-end bg-teal-200 rounded-lg px-2 py-1 text-black"
       >
-        <FileUser className="  hover:text-green-500 " width={20} />
-        <span className="text-sm  ">Resume</span>
+        <FileUser className="  hover:text-green-500 " width={18} />
+        <span className="text-sm  font-bold">Resume</span>
         {/* <Download className="text-2xl hidden hover:text-green-500 hover:visible" /> */}
       </a>
       <a href="https://github.com/anuragkharwar" target="_blank">
@@ -30,7 +30,7 @@ const SocialIcons = () => {
         <Linkedin className=" hover:text-blue-500" width={20} />
       </a>
       <a href="https://twitter.com/anuragkharwar" target="_blank">
-        <MailIcon className=" hover:text-blue-500" width={20} />
+        <MailIcon className=" hover:text-orange-500" width={20} />
       </a>
       <a href="https://twitter.com/anuragkharwar" target="_blank">
         <MessageCircle className=" hover:text-green-500" width={20} />
