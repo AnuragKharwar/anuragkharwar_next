@@ -86,7 +86,7 @@ const freeLanceJson = [
     description:
       "A decentralized platform for connecting farmer with equipment and vendors for rental of equipment. It is a decentralized platform where farmers can connect with their equipment and vendors can rent their equipment.",
     myrole: "Entire Front-End design and develpoment along Api integration",
-    status: "In-Progress",
+    status: "Currently working",
   },
   {
     title: "ZoomVenue",
@@ -97,7 +97,7 @@ const freeLanceJson = [
       "It is an web application that provides a platform for booking tickets and organising events along with venue creation and management.",
     myrole:
       "Entire Front-End design and develpoment along with Api integration",
-    status: "completed",
+    status: "Completed",
   },
 
   {
@@ -108,7 +108,7 @@ const freeLanceJson = [
     description:
       "It is an web application that provides hostel and dormetories for travellers. My contribution was in builing  the landing page.",
     myrole: "Landing Page and api integration",
-    status: "completed",
+    status: "Completed",
   },
   {
     title: "Doctor Clinic App",
@@ -119,7 +119,7 @@ const freeLanceJson = [
       "It is an web application that provides clininal and laboratory appointment for  patients.",
     myrole:
       "Entire Front-End design and develpoment along with Api integration",
-    status: "completed",
+    status: "Completed",
   },
 
   //   {

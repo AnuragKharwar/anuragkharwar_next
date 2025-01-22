@@ -4,7 +4,7 @@ import React from "react";
 
 const layout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="flex flex-col items-center w-screen h-screen px-8 ">
+    <div className="flex flex-col items-center w-screen  px-8 ">
       <div className="h-full w-full lg:w-[50vw] ">
         <Navbar />
         {children}

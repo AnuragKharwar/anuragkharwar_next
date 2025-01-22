@@ -85,10 +85,10 @@ const Timeline = () => {
       </h3>
       <Year>2024</Year>
       <ul>
-        <Step title="Officially beacame an Engineer 👨‍💻">
-          <a href="https://algochurn.com" target="__blank"></a> I honered with
-          B-Tech Degree from NIT-Surat in the presence of Hon’ble President of
-          India <span className="font-bold">Smt. Droupadi Murmu</span>
+        <Step title="Officially beacame an Engineer(CONVOCATION) 👨‍💻">
+          <a href="" target="__blank"></a> I honered with B-Tech Degree from
+          NIT-Surat in the presence of Hon’ble President of India{" "}
+          <span className="font-bold">Smt. Droupadi Murmu</span>
         </Step>
       </ul>
       <Divider />
@@ -101,9 +101,8 @@ const Timeline = () => {
       </ul>
       <ul>
         <Step title="Got  Internship-Remote 🌏 ">
-          <a href="https://algochurn.com" target="__blank"></a> Started as a
-          front-end Intern at IDS. I was able to learn a lot from the experience
-          and the mentorship.
+          <a href="" target="__blank"></a> Started as a front-end Intern at IDS.
+          I was able to learn a lot from the experience and the mentorship.
         </Step>
       </ul>
 
@@ -153,11 +152,9 @@ const Timeline = () => {
       <Year>2021</Year>
       <ul>
         <Step title="Build DroneFlight Controller 🤖">
-          Built{" "}
-          <a href="https://www.tailwindmasterkit.com">DroneFlight Controller</a>
-          , A drone flight controller built using Arduino and a gyroscope. This
-          initiative garnered recognition from the esteemed SVNIT technical
-          club, Drishti.
+          Built <a href="">DroneFlight Controller</a>, A drone flight controller
+          built using Arduino and a gyroscope. This initiative garnered
+          recognition from the esteemed SVNIT technical club, Drishti.
         </Step>
         <Step title="Got Nick Name (Tony Stark) 😁">
           Automated my Hostel room including Fan, Light and Door locks was
@@ -173,11 +170,7 @@ const Timeline = () => {
       <Divider />
       <Year>2020</Year>
       <ul>
-        <Step title="Pandemic 💀">
-          Was a very tough time, Despite not having Laptop tring to manage
-          studies on Online-Mode and getting away from core understanding of
-          Electronics and Communication.
-        </Step>
+        <Step title="Pandemic 💀">Exploring Electonics and online classes</Step>
         {/* <Step title="Cleared GATE 2019 💯">
           Cleared GATE 2019 after 8 months of continuous studies. I still hate
           Computer System Architecture & Organization.

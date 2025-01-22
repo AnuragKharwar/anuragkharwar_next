@@ -20,6 +20,7 @@ const Projects = ({ title, data }: { title: string; data: any }) => {
             imageUrl={project.imgUrl}
             tags={project.stack}
             key={project.title}
+            status={project?.status}
           />
         ))}
       </div>
@@ -53,6 +54,7 @@ const Projects = ({ title, data }: { title: string; data: any }) => {
                 href={project.link}
                 imageUrl={project.imgUrl}
                 tags={project.stack}
+                status={project?.status}
               />
             </motion.div>
           ))}

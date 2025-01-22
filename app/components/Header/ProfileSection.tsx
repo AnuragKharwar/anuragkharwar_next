@@ -58,7 +58,7 @@ const ProfileSection = () => {
       </div>
       <div className="">
         <Image
-          src={`/images/project.png`}
+          src={`/images/profilee.png`}
           alt="github"
           width={100}
           height={100}

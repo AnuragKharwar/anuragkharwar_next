@@ -8,6 +8,7 @@ export default function ProjectCard({
   href,
   imageUrl,
   tags,
+  status,
 }) {
   // const tags = ["GitHub", "React", "JamStack"];
   let mouseX = useMotionValue(0);
@@ -48,14 +49,20 @@ export default function ProjectCard({
         </motion.div> */}
         <div className=" flex flex-col items-start   dark:border-gray-800 rounded p-4 relative">
           {/* */}
-          <div>
+          <div className="flex justify-between w-full items-start">
             <h4 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
               {title}
             </h4>
-            <p className="leading-6 pt-4 text-gray-700 dark:text-gray-300">
-              {description}
-            </p>
+            {status && (
+              <p className="leading-6 bg-gray-200 dark:bg-zinc-700 text-gray-900 dark:text-gray-300 rounded-full px-2 py-1 text-xs hover:text-black">
+                {status}
+              </p>
+            )}
           </div>
+          <p className="leading-6 pt-4 text-gray-700 dark:text-gray-300">
+            {description}
+          </p>
+
           <div className="pt-4 flex md:flex-row flex-wrap ">
             {tags?.map((tag, idx) => (
               <p
