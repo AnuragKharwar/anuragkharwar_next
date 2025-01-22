@@ -17,6 +17,7 @@ const eslintConfig = [
       "app/components/Header/ProfileSection.tsx",
       "app/components/TimeLine/TimeLine.tsx",
       "app/components/ui/navbar.tsx",
+      "app/components/Projects/Projects.tsx",
       "app/components/ui/ProjectCard.js",
       "app/layout.tsx",
     ],
