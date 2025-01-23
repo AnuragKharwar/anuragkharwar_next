@@ -1,13 +1,4 @@
-import {
-  Download,
-  File,
-  FileUser,
-  Github,
-  Linkedin,
-  MailIcon,
-  MessageCircle,
-  Paperclip,
-} from "lucide-react";
+import { FileUser, Github, Linkedin, MailIcon } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -15,7 +6,7 @@ const SocialIcons = () => {
   return (
     <div className="flex flex-row gap-4  items-center mt-2">
       <a
-        href="https://github.com/anuragkharwar"
+        href="https://drive.google.com/file/d/1d3D_onxSByhVpC9WttWg1lUPTCZC3ei-/view?usp=sharing"
         target="_blank"
         className="flex gap-1 items-end bg-teal-200 rounded-lg px-2 py-1 text-black"
       >
@@ -35,8 +26,21 @@ const SocialIcons = () => {
       >
         <MailIcon className=" hover:text-orange-500" width={20} />
       </a>
-      <a href="https://twitter.com/anuragkharwar" target="_blank">
+      {/* <a href="https://twitter.com/anuragkharwar" target="_blank">
         <MessageCircle className=" hover:text-green-500" width={20} />
+      </a> */}
+      <a
+        aria-label="Chat on WhatsApp"
+        href="https://wa.me/9558722476/"
+        target="_blank"
+      >
+        {" "}
+        <Image
+          alt="Chat on WhatsApp"
+          src="/WhatsApp.svg"
+          width={25}
+          height={25}
+        />
       </a>
     </div>
   );
