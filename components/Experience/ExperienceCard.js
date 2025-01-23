@@ -58,7 +58,7 @@ export default function ProjectCard({
 
             <div>
               <p className="leading-6  text-gray-700 dark:text-gray-300">
-                {description.slice(0, 200)}...<spam>more</spam>
+                {description.slice(0, 200)}...<span>more</span>
               </p>
               <div className=" flex md:flex-row flex-wrap mt-1 ">
                 {technologies?.map((tag, idx) => (
