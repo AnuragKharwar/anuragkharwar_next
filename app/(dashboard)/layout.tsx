@@ -10,6 +10,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
 
         {children}
         {/* <Footer /> */}
+        {/* <BackgroundBeams /> */}
       </div>
     </div>
   );

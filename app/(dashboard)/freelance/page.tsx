@@ -3,7 +3,9 @@ import React from "react";
 import { freeLanceJson } from "@/data/data";
 const Page = () => {
   return (
-    <Projects title="Freelance & Other Contribution" data={freeLanceJson} />
+    <div className="px-8">
+      <Projects title="Freelance & Other Contribution" data={freeLanceJson} />
+    </div>
   );
 };
 
