@@ -156,10 +156,11 @@ const Timeline = () => {
           built using Arduino and a gyroscope. This initiative garnered
           recognition from the esteemed SVNIT technical club, Drishti.
         </Step>
-        <Step title="Got Nick Name (Tony Stark) 😁">
+        <Step title="Got Nick Name 😁">
           Automated my Hostel room including Fan, Light and Door locks was
           controlled by voice commands and APP. My friends and juniors got
-          facinated and gave me Nick Name.
+          facinated and gave me Nick Name what????{" "}
+          <strong>Marvel fan Knows</strong>
         </Step>
         {/* <Step title="Created Covid-19 Vaccination slots notification system 💉">
           Integrated Vaccination slots notification system in covidrescue web
@@ -170,7 +171,14 @@ const Timeline = () => {
       <Divider />
       <Year>2020</Year>
       <ul>
-        <Step title="Pandemic 💀">Exploring Electonics and online classes</Step>
+        <Step title="The Begening 🌞">
+          Started with ardunio programming using c later python for face
+          recognition project.
+        </Step>
+        <Step title="During Pandemic 💀">
+          Exploring Electonics buildig projects on micro-controllers ,
+          micro-processor and geting into the world of programming .
+        </Step>
         {/* <Step title="Cleared GATE 2019 💯">
           Cleared GATE 2019 after 8 months of continuous studies. I still hate
           Computer System Architecture & Organization.
