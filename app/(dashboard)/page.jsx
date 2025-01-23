@@ -14,7 +14,7 @@ const page = () => {
       <Education />
       <Divider />
 
-      <div className="flex flex-col gap-8 mt-10">
+      <div className="flex flex-col lg:gap-8">
         <Experience />
         <Divider />
         <Projects title="Projects" data={PortfolioJson} />

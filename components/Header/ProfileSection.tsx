@@ -23,13 +23,16 @@ const SocialIcons = () => {
         <span className="text-sm  font-bold">Resume</span>
         {/* <Download className="text-2xl hidden hover:text-green-500 hover:visible" /> */}
       </a>
-      <a href="https://github.com/anuragkharwar" target="_blank">
+      <a href="https://github.com/AnuragKharwar" target="_blank">
         <Github className=" hover:text-green-500" width={20} />
       </a>
-      <a href="https://www.linkedin.com/in/anuragkharwar/" target="_blank">
+      <a href="https://www.linkedin.com/in/anurag-kharwar" target="_blank">
         <Linkedin className=" hover:text-blue-500" width={20} />
       </a>
-      <a href="https://twitter.com/anuragkharwar" target="_blank">
+      <a
+        href="mailto:anuragkharwar@gmail.com?subject=Lets work together"
+        target="_blank"
+      >
         <MailIcon className=" hover:text-orange-500" width={20} />
       </a>
       <a href="https://twitter.com/anuragkharwar" target="_blank">

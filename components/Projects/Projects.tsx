@@ -7,7 +7,7 @@ const Projects = ({ title, data }: { title: string; data: any }) => {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <div className="flex flex-col h-full gap-4  ">
+    <div className="flex flex-col h-full gap-4">
       <h1 className="text-lg lg:text-3xl font-bold">{title}</h1>
 
       {/* Initial Projects */}

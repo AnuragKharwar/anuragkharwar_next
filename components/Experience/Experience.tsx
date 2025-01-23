@@ -5,31 +5,33 @@ const data = [
     title: "Software Developer ",
     duration: "Dec 2023 - Present",
     details:
-      "Working remotely for Information Data System developing front end for web products. Responsibilities include creating and optimizing user interfaces, integrating APIs for dynamic data handling, managing state and store management with tools like Redux, implementing session handling for secure user authentication and data persistence, and ensuring responsive and accessible design across various devices and browsers. Additional tasks involve collaborating with backend developers, participating in code reviews, and maintaining up-to-date documentation.",
-    link: "https://www.google.com",
+      "Working remotely for IDS developing front end for various internal tools and web Products. ",
+    link: "https://idssoft.com/",
     imgUrl: "/assets/sde.png",
     isWorking: true,
     technologies: ["HTML", "CSS", "Javascript", "React", "Nextjs"],
+    org: "IDS,Hyderabad",
   },
   {
     title: "Internship",
     duration: "Sep 2023 - Dec 2023",
-    details:
-      "Working remotely for Information Data System developing front end for web products. Responsibilities include creating and optimizing user interfaces, integrating APIs for dynamic data handling, managing state and store management with tools like Redux, implementing session handling for secure user authentication and data persistence, and ensuring responsive and accessible design across various devices and browsers. Additional tasks involve collaborating with backend developers, participating in code reviews, and maintaining up-to-date documentation.",
-    link: "https://www.google.com",
+    details: `Completed Internship on IDS developed Polyversity.io`,
+    link: "https://www.polyversity.io/",
     imgUrl: "/assets/sde.png",
     isWorking: true,
     technologies: ["HTML", "CSS", "Javascript", "React", "Nextjs"],
+    org: "IDS,Hyderabad",
   },
   {
     title: "Internship Trainee",
     duration: "June 2022 - July 2022",
     details:
-      "The training consisted of Introduction to VLSI, HDL Coding Concepts in C language and System Design. The training was conducted in a classroom environment. The trainee was expected to attend the training sessions and complete the assigned tasks. The trainee was also expected to participate in group discussions and provide feedback to the instructor.",
-    link: "https://www.google.com",
+      "The training consisted of Introduction to VLSI, HDL Coding Concepts in C language and verilog System Design. ",
+    link: "",
     imgUrl: "/assets/sde.png",
     isWorking: true,
-    technologies: ["HTML", "CSS", "Javascript", "React", "Nextjs"],
+    technologies: ["Verilog", "embeded-c", "VHDL"],
+    org: "Internsala,Delhi",
   },
 ];
 const Experience = () => {
@@ -52,6 +54,7 @@ const Experience = () => {
             logo={experience.imgUrl}
             isWorking={experience.isWorking}
             technologies={experience.technologies}
+            org={experience.org}
           />
         ))}
       </div>

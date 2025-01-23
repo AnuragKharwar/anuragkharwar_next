@@ -11,6 +11,7 @@ export default function ProjectCard({
   href,
   logo,
   isWorking,
+  org,
 }) {
   // const tags = ["GitHub", "React", "JamStack"];
   let mouseX = useMotionValue(0);
@@ -49,21 +50,29 @@ export default function ProjectCard({
             className="transition-transform duration-500"
           />
         </motion.div> */}
-        <div className=" flex flex-col items-start   dark:border-gray-800 rounded p-4 relative">
+        <div className="flex flex-col items-start dark:border-gray-800 rounded p-4 relative">
           {/* */}
-          <div className="flex flex-col lg:flex-row w-full items-start gap-2 lg:gap-10">
-            <h4 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-100 ">
-              {title}
-            </h4>
-            <p className="text-gray-500 dark:text-gray-400 text-xs lg:ml-auto lg:hidden   ">
-              {duration}
-            </p>
+          <div className="lg:grid grid-cols-9 w-full ">
+            <div className="flex justify-between lg:grid col-span-2 ">
+              <h4 className="text-md font-bold  text-gray-900 dark:text-gray-100 h-fit ">
+                {title}
+                <br />
+                <span className="font-serif text-xs text-gray-600 lg:block hidden">
+                  {org}
+                </span>
+              </h4>
+              <span className="text-sm  mt-auto">Remote</span>
+            </div>
+            <div className="flex w-full justify-between text-gray-500 dark:text-gray-400 text-sm lg:ml-auto lg:hidden ">
+              <span className="font-bold">{org}</span>
+              <span>{duration}</span>
+            </div>
 
-            <div className="gap-2 flex flex-col">
-              <p className="leading-6  text-gray-700 dark:text-gray-300">
-                {description.slice(0, 150)}...<span>more</span>
+            <div className="flex flex-col gap-4 lg:grid  col-span-7 mt-4 lg:mt-0">
+              <p className="leading-6 text-gray-700 dark:text-gray-300">
+                {description.slice(0, 150)}
               </p>
-              <div className=" flex md:flex-row flex-wrap mt-1 ">
+              <div className=" flex md:flex-row flex-wrap mt-1">
                 {technologies?.map((tag, idx) => (
                   <p
                     key={idx}
