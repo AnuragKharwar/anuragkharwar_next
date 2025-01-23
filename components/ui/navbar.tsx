@@ -60,7 +60,7 @@ const Navbar = () => {
   console.log(pathName);
 
   return (
-    <div className="sticky top-0 z-50 flex justify-between items-center w-full h-fit  ">
+    <div className="sticky top-0 z-50 flex justify-between items-center w-full h-fit pl-6 md:pl-0 ">
       <nav className="flex justify-between items-center w-full p-2 lg:p-8  mb-4 mt-4 md:mb-10 mx-auto bg-transparent">
         <Themebutton />
         <div className="hidden sm:block rounded-full  px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-900/90 dark:text-zinc-200 dark:ring-white/10">
