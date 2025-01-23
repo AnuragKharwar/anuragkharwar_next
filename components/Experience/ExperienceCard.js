@@ -51,14 +51,17 @@ export default function ProjectCard({
         </motion.div> */}
         <div className=" flex flex-col items-start   dark:border-gray-800 rounded p-4 relative">
           {/* */}
-          <div className="flex w-full items-start gap-10">
+          <div className="flex flex-col lg:flex-row w-full items-start gap-2 lg:gap-10">
             <h4 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-100 ">
               {title}
             </h4>
+            <p className="text-gray-500 dark:text-gray-400 text-xs lg:ml-auto lg:hidden   ">
+              {duration}
+            </p>
 
-            <div>
+            <div className="gap-2 flex flex-col">
               <p className="leading-6  text-gray-700 dark:text-gray-300">
-                {description.slice(0, 200)}...<span>more</span>
+                {description.slice(0, 150)}...<span>more</span>
               </p>
               <div className=" flex md:flex-row flex-wrap mt-1 ">
                 {technologies?.map((tag, idx) => (
@@ -69,7 +72,7 @@ export default function ProjectCard({
                     {tag}
                   </p>
                 ))}
-                <p className="text-gray-500 dark:text-gray-400 text-xs ml-auto   ">
+                <p className="text-gray-500 dark:text-gray-400 text-xs lg:ml-auto lg:block hidden  ">
                   {duration}
                 </p>
               </div>
