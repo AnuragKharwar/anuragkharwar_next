@@ -1,4 +1,4 @@
-import Projects from "@/Components/Projects/Projects";
+import Projects from "../../../components/Projects/Projects";
 import React from "react";
 import { freeLanceJson } from "@/data/data";
 const Page = () => {

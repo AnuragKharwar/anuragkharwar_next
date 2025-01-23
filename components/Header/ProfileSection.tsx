@@ -42,8 +42,8 @@ const ProfileSection = () => {
   return (
     <div className="w-full flex justify-between ">
       <div>
-        <p className=" text-2xl ">Anurag Kharwar</p>
-        <h1 className="text-2xl lg:text-4xl font-bold uppercase ">
+        <p className=" lg:text-2xl ">Anurag Kharwar</p>
+        <h1 className="text-lg lg:text-4xl font-bold uppercase ">
           FrontEnd Developer
         </h1>
         <SocialIcons />

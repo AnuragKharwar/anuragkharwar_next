@@ -12,7 +12,7 @@ const PortfolioJson = [
     imgUrl: "/assets/canvasly.png",
     stack: ["TypeScript", "Tailwind", "Nexttjs", "Nestjs"],
     description:
-      "A tool created on top of exceli-draw to help you draw and edit diagrams. Supported BackEnd support for save works and team creations.",
+      "A dashboard to showcase the front end skills it has login page, a home page, a search page and a movie page  along with E-commerce dashbboard with analytics and charts.",
     link: "https://canvasily.netlify.app/",
   },
   {
@@ -20,39 +20,40 @@ const PortfolioJson = [
     imgUrl: "/assets/netflix.jpg",
     stack: ["Javascript", "React", "Redux", "Firebase"],
     description:
-      "A Netflix clone built using React, Redux and Firebase. It has a login page, a home page, a search page and a movie page.",
+      "A dashboard to showcase the front end skills it has login page, a home page, a search page and a movie page  along with E-commerce dashbboard with analytics and charts.",
     link: "https://nettflex.netlify.app/",
+  },
+  {
+    title: "Food-app",
+    imgUrl: "/assets/foodapp.png",
+    stack: ["Javascript", "React", "Firebase"],
+    description:
+      "A dashboard to showcase the front end skills it has login page, a home page, a search page and a movie page  along with E-commerce dashbboard with analytics and charts.",
+    link: "https://foodapp321.netlify.app/",
   },
   {
     title: "Sorting-Visualizer",
     imgUrl: "/assets/sorting.png",
     stack: ["HTML", "CSS", "Javascript", "React"],
     description:
-      "A tool to visualize the sorting algorithm. It has a graph to show the sorting algorithm and a table to show the steps of the algorithm.",
+      "A dashboard to showcase the front end skills it has login page, a home page, a search page and a movie page  along with E-commerce dashbboard with analytics and charts.",
     link: "https://sortingvisualizerbyanurag.netlify.app/",
   },
 
-  {
-    title: "Food-app",
-    imgUrl: "/assets/foodapp.png",
-    stack: ["Javascript", "React", "Firebase"],
-    description:
-      "A food app built using React and Firebase. It has a login page, a home page, a search page and a recipe page.",
-    link: "https://foodapp321.netlify.app/",
-  },
   {
     title: "GPT-3 Open AI",
     imgUrl: "/assets/gpt-3.png",
     stack: ["HTML", "CSS", "Javascript", "React"],
     description:
-      "A GPT-3 clone built using React. It has a login page, a home page, a search page and a chat page.",
+      "A dashboard to showcase the front end skills it has login page, a home page, a search page and a movie page  along with E-commerce dashbboard with analytics and charts.",
     link: "https://gpt3-project-tartufo-118ea3.netlify.app/",
   },
   {
     title: "Space-Invader GAME",
     imgUrl: "/assets/space_invader.png",
     stack: ["HTML", "CSS", "Javascript"],
-    description: "A Space Invader game built using HTML, CSS and Javascript.",
+    description:
+      "A dashboard to showcase the front end skills it has login page, a home page, a search page and a movie page  along with E-commerce dashbboard with analytics and charts.",
     link: "https://space-invader-gamebyanurag.netlify.app",
   },
   // {
@@ -65,14 +66,16 @@ const PortfolioJson = [
     title: "PIXEL Art Maker",
     imgUrl: "/assets/pixel.png",
     stack: ["HTML", "CSS", "Javascript"],
-    description: "A pixel art maker built using HTML, CSS and Javascript.",
+    description:
+      "A dashboard to showcase the front end skills it has login page, a home page, a search page and a movie page  along with E-commerce dashbboard with analytics and charts.",
     link: "https://pixeldrawbyanurag.netlify.app",
   },
   {
     title: "Hang-Man",
     imgUrl: "/assets/hangman.png",
     stack: ["HTML", "CSS", "Javascript"],
-    description: "A hangman game built using HTML, CSS and Javascript.",
+    description:
+      "A dashboard to showcase the front end skills it has login page, a home page, a search page and a movie page  along with E-commerce dashbboard with analytics and charts.",
     link: "https://hangman-using-vanila.netlify.app",
   },
 ];
@@ -84,7 +87,7 @@ const freeLanceJson = [
     stack: ["HTML", "CSS", "TypeScript", "Nextjs"],
     link: "https://www.qa.kheticonnect.com/",
     description:
-      "A decentralized platform for connecting farmer with equipment and vendors for rental of equipment. It is a decentralized platform where farmers can connect with their equipment and vendors can rent their equipment.",
+      "A dashboard to showcase the front end skills it has login page, a home page, a search page and a movie page  along with E-commerce dashbboard with analytics and charts.",
     myrole: "Entire Front-End design and develpoment along Api integration",
     status: "Currently working",
   },
@@ -94,7 +97,7 @@ const freeLanceJson = [
     stack: ["Javascript", "React", "Redux"],
     link: "https://zoomvenues-ticketing.vercel.app/",
     description:
-      "It is an web application that provides a platform for booking tickets and organising events along with venue creation and management.",
+      "A dashboard to showcase the front end skills it has login page, a home page, a search page and a movie page  along with E-commerce dashbboard with analytics and charts.",
     myrole:
       "Entire Front-End design and develpoment along with Api integration",
     status: "Completed",
@@ -106,7 +109,7 @@ const freeLanceJson = [
     stack: ["TypeScript", "Tailwind", "Nexttjs"],
     link: "https://www.mixdorm.com/",
     description:
-      "It is an web application that provides hostel and dormetories for travellers. My contribution was in builing  the landing page.",
+      "A dashboard to showcase the front end skills it has login page, a home page, a search page and a movie page  along with E-commerce dashbboard with analytics and charts.",
     myrole: "Landing Page and api integration",
     status: "Completed",
   },
@@ -116,7 +119,7 @@ const freeLanceJson = [
     stack: ["HTML", "CSS", "Javascript", "React"],
     link: "https://sortingvisualizerbyanurag.netlify.app/",
     description:
-      "It is an web application that provides clininal and laboratory appointment for  patients.",
+      "A dashboard to showcase the front end skills it has login page, a home page, a search page and a movie page  along with E-commerce dashbboard with analytics and charts.",
     myrole:
       "Entire Front-End design and develpoment along with Api integration",
     status: "Completed",

@@ -19,7 +19,7 @@
       }
     ],
     "paths": {
-      "@/Components/*": ["./app/components/*"],
+     "@/components/*":["./components/*"],
       "@/Hooks/*": ["./app/hooks/*"],
       "@/UI/*": ["./app/ui/*"], 
       "@/*": ["./app/*"]

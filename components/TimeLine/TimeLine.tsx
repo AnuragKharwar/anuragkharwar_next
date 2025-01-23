@@ -80,7 +80,7 @@ const Timeline = () => {
 
   return (
     <>
-      <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
+      <h3 className="font-bold text-lg lg:text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
         Life Milestones and Progress
       </h3>
       <Year>2024</Year>

@@ -7,11 +7,7 @@ const Themebutton = () => {
   const { theme, toggleTheme } = useTheme();
   return (
     <div onClick={toggleTheme} className="cursor-pointer w-fit">
-      {theme === "dark" ? (
-        <MoonStar className="text-white" />
-      ) : (
-        <Sun className="text-white" />
-      )}
+      {theme === "dark" ? <MoonStar /> : <Sun />}
     </div>
   );
 };

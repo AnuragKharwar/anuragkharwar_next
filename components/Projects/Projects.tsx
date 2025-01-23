@@ -1,14 +1,14 @@
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import ProjectCard from "@/Components/ui/ProjectCard";
+import ProjectCard from "../ui/ProjectCard";
 
 const Projects = ({ title, data }: { title: string; data: any }) => {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <div className="flex flex-col h-full gap-4 lg:px-8 ">
-      <h1 className="text-3xl font-bold">{title}</h1>
+    <div className="flex flex-col h-full gap-4  ">
+      <h1 className="text-lg lg:text-3xl font-bold">{title}</h1>
 
       {/* Initial Projects */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
