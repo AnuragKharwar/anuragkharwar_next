@@ -4,7 +4,7 @@ import { PortfolioJson } from "@/data/data";
 const Page = () => {
   return (
     <div className="px-8">
-      <Projects title="Projects" data={PortfolioJson} />;
+      <Projects title="Projects" data={PortfolioJson} />
     </div>
   );
 };

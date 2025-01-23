@@ -4,7 +4,7 @@ import Experience from "@/components/Experience/Experience";
 const Page = () => {
   return (
     <div className="px-8">
-      <Experience />;
+      <Experience />
     </div>
   ); 
 };
