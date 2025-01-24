@@ -6,6 +6,7 @@ import { freeLanceJson, PortfolioJson } from "@/data/data";
 import Experience from "@/components/Experience/Experience";
 import Divider from "@/components/ui/divider";
 import Education from "@/components/Education/Education";
+import Footer from "@/components/ui/footer";
 const page = () => {
   return (
     <div className="flex flex-col h-full px-8 ">
@@ -28,6 +29,7 @@ const page = () => {
       </div>
 
       <Timeline />
+      <Footer />
     </div>
   );
 };
