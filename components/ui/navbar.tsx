@@ -45,8 +45,8 @@ const mobileLinks = [
   },
 
   {
-    name: "Freelancing",
-    link: "/freelance",
+    name: "Contributions",
+    link: "/contributions",
   },
   {
     name: "Blogs",
