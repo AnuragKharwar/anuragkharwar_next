@@ -5,6 +5,7 @@ import ProjectCard from "../ui/ProjectCard";
 
 const Projects = ({ title, data }: { title: string; data: any }) => {
   const [showMore, setShowMore] = useState(false);
+  const dataLength = data.length;
 
   return (
     <div className="flex flex-col h-full gap-4">
@@ -62,12 +63,15 @@ const Projects = ({ title, data }: { title: string; data: any }) => {
       )}
 
       {/* Toggle Button */}
-      <button
-        onClick={() => setShowMore(!showMore)}
-        className={`text-center items-center  text-teal-400`}
-      >
-        {showMore ? "Show Less" : "Show More"}
-      </button>
+      {dataLength > 4 && (
+        <button
+          type="button"
+          className="flex items-center text-sm my-4 mx-auto px-4 py-2 rounded-md font-medium text-gray-900 dark:text-gray-100 "
+          onClick={() => setShowMore(!showMore)}
+        >
+          {showMore ? "Show Less" : "Show More"}
+        </button>
+      )}
     </div>
   );
 };

@@ -1,12 +1,8 @@
 "use client";
 import { Check, CircleCheckBig } from "lucide-react";
 import { useState } from "react";
-
-const Divider = () => {
-  return (
-    <div className="border border-gray-200 dark:border-gray-600 w-full my-8" />
-  );
-};
+import Button from "../ui/Button";
+import Divider from "../ui/divider";
 
 const Year = ({ children }: any) => {
   return (
@@ -22,7 +18,6 @@ const Step = ({ title, children }: any) => {
       <div className="flex items-center mb-2 text-green-700 dark:text-green-300">
         <span className="sr-only">Check</span>
         <CircleCheckBig className="text-blue-500 mr-2" />
-
         <p className="font-medium text-gray-900 dark:text-gray-100">{title}</p>
       </div>
       <p className="text-gray-700 dark:text-gray-400 ml-6">{children}</p>
@@ -36,42 +31,31 @@ const FullTimeline = () => (
     <Year>2018</Year>
     <ul>
       <Step title="12th Grade 🤘🏻">
-        Completed 12th from LAXMI INTERNATINAL SCHOOL sarigam,vapi.
+        Graduated from LAXMI International School, Sarigam, Vapi. The struggle
+        was real, but I made it!
       </Step>
       <Step title="Head-Boy 🎖️">
-        During my 12th Grade, I got Elected as the Head-Boy of the school. I was
-        responsible for organizing and leading various activities and events.
+        Elected as the Head-Boy of the school—organizing events, leading
+        activities, and feeling like a boss (sort of).
       </Step>
-      <Step title="Got Into an Internatinal  School 🎓">
-        Not able to understand English as i was comming from HINDI background,
-        Got weak in studies grades went down.
+      <Step title="Entered an International School 🎓">
+        Coming from a Hindi background, I found myself lost in translation.
+        Struggled with English, grades took a dive, but hey, growth happens in
+        tough times.
       </Step>
     </ul>
     <Divider />
     <Year>2016</Year>
     <ul>
       <Step title="Moved to Gujarat - Vapi 🌆">
-        I moved to Vapi from my Hometown(Varanasi) along with my father.
+        Relocated from my hometown, Varanasi, to Vapi with my dad. A fresh start
+        in a new place!
       </Step>
-
       <Step title="10th Grade 📜">
-        Scored 9.4/10 CGPA in 10th Grade. For me it was huge.
+        Scored 9.4/10 CGPA in 10th Grade. Felt like a superhero in my own story.
       </Step>
-      {/* <Step title="React Enthusiast ⚒">
-        Was introducted to React, took up a course on Udemy to get the hang of
-        it. I haven't stopped since then.
-      </Step>
-      <Step title="Open Source Contributions ⚙️">
-        Started contributing to open source on a daily basis. Contributed to
-        smaller projects to learn more on the contributing part.
-      </Step> */}
     </ul>
     <Divider />
-
-    {/* <Year>1998</Year>
-    <ul>
-      <Step title="First Enginner was Born in My entire Blood Line 👶🏼 🍼" />
-    </ul> */}
   </>
 );
 
@@ -85,157 +69,84 @@ const Timeline = () => {
       </h3>
       <Year>2024</Year>
       <ul>
-        <Step title="Officially beacame an Engineer(CONVOCATION) 👨‍💻">
-          <a href="" target="__blank"></a> I honered with B-Tech Degree from
-          NIT-Surat in the presence of Hon’ble President of India{" "}
-          <span className="font-bold">Smt. Droupadi Murmu</span>
+        <Step title="Officially Became an Engineer (Convocation) 👨‍💻">
+          Honored with a B.Tech Degree from NIT-Surat in the presence of the
+          Hon’ble President of India,{" "}
+          <span className="font-bold">Smt. Droupadi Murmu</span>. Achievement
+          unlocked!
         </Step>
       </ul>
       <Divider />
       <Year>2023</Year>
       <ul>
         <Step title="SDE-1 at IDS 🎉">
-          <a href="https://algochurn.com" target="__blank"></a> As a Software
-          Development Engineer. Working on their Flagship products
+          Joined as a Software Development Engineer. Working on their flagship
+          products—feeling like a coding ninja.
+        </Step>
+        <Step title="Got an Internship-Remote 🌏">
+          Started as a front-end intern at IDS. Learned a lot, broke some code,
+          but gained invaluable experience.
         </Step>
       </ul>
-      <ul>
-        <Step title="Got  Internship-Remote 🌏 ">
-          <a href="" target="__blank"></a> Started as a front-end Intern at IDS.
-          I was able to learn a lot from the experience and the mentorship.
-        </Step>
-      </ul>
-
       <Divider />
       <Year>2022</Year>
       <ul>
-        <Step title="Exploring web development ">
-          Started exploring web development. I started learning HTML, CSS and
-          Javascript. I was also introduced to ReactJs.
+        <Step title="Explored Web Development">
+          Dived into HTML, CSS, and JavaScript. Got introduced to ReactJS and
+          never looked back!
         </Step>
         <Step title="DSA and Competitive Programming 💻">
-          Started learning DSA and partecipating in competitive programming
-          contents.
+          Began learning Data Structures and Algorithms while participating in
+          competitive programming contests. A nerdy yet thrilling phase!
         </Step>
-        {/* <Step title="Algochurn crosses 200 users 🤌🏻">
-          <a href="https://algochurn.com" target="__blank">
-            Algochurn
-          </a>{" "}
-          is now helping 200+ registered users and 14,000+ monthly users.
-        </Step>
-        <Step title="1,000+ Followers on Twitter 🌟">
-          Crossed 1,000 mark on{" "}
-          <a
-            href="https://www.twitter.com/mannupaaji"
-            className="font-semibold"
-            target="__blank"
-          >
-            Twitter
-          </a>
-          . You can help increase the count by following me. 😉
-        </Step>
-        <Step title="Built and launched Algochurn 🍾">
-          Built{" "}
-          <a href="https://algochurn.com" target="__blank">
-            Algochurn
-          </a>
-          , A platform to practice DS ALgo along with front-end to ace your next
-          technical interview.
-        </Step>
-        <Step title="Promoted to Senior Software Engineer 🎉">
-          Promoted to Senior Software Engineer - Worked on applications handling
-          20,000+ users per day. Working on Web, Mobile, and even TV
-          applications. 🔥
-        </Step> */}
       </ul>
       <Divider />
       <Year>2021</Year>
       <ul>
-        <Step title="Build DroneFlight Controller 🤖">
-          Built <a href="">DroneFlight Controller</a>, A drone flight controller
-          built using Arduino and a gyroscope. This initiative garnered
-          recognition from the esteemed SVNIT technical club, Drishti.
+        <Step title="Built a Drone Flight Controller 🤖">
+          Built a <a href="">Drone Flight Controller</a> using Arduino and a
+          gyroscope. Recognized by the prestigious SVNIT technical club,
+          Drishti. Felt like Iron Man—almost.
         </Step>
-        <Step title="Got Nick Name 😁">
-          Automated my Hostel room including Fan, Light and Door locks was
-          controlled by voice commands and APP. My friends and juniors got
-          facinated and gave me Nick Name what????{" "}
-          <strong>Marvel fan Knows</strong>
+        <Step title="Earned a Nickname 😁">
+          Automated my hostel room with voice-controlled fans, lights, and door
+          locks. Friends got fascinated and started calling me... wait for it...
+          "Jarvis." Marvel fans, unite!
         </Step>
-        {/* <Step title="Created Covid-19 Vaccination slots notification system 💉">
-          Integrated Vaccination slots notification system in covidrescue web
-          app. Notified people whenever vaccination slot was available in their
-          area and city.
-        </Step> */}
       </ul>
       <Divider />
       <Year>2020</Year>
       <ul>
-        <Step title="The Begening 🌞">
-          Started with ardunio programming using c later python for face
-          recognition project.
+        <Step title="The Beginning 🌞">
+          Started programming with Arduino using C, later moved to Python for a
+          face recognition project. Baby steps into the tech world!
         </Step>
-        <Step title="During Pandemic 💀">
-          Exploring Electonics buildig projects on micro-controllers ,
-          micro-processor and geting into the world of programming .
+        <Step title="Pandemic Diaries 💀">
+          Explored electronics and built projects on microcontrollers and
+          microprocessors. Fell headfirst into the world of programming.
         </Step>
-        {/* <Step title="Cleared GATE 2019 💯">
-          Cleared GATE 2019 after 8 months of continuous studies. I still hate
-          Computer System Architecture & Organization.
-        </Step>
-        <Step title="Competitive Programming 🏆">
-          Cleared Hackerrank and Hackerearth contests. Got a strong grip on
-          Competitive Programming.
-        </Step>
-        <Step title="Taught programming to students🥳">
-          Taught fundamental programming to school students. It included Basic C
-          programming, Introduction to Web Development and logic building.
-        </Step> */}
       </ul>
       <Divider />
       <Year>2019</Year>
       <ul>
-        <Step title="College NIT - SURAT 💻">
-          Excited to start my College Jounery got ECE branch looking forward to
-          become an <span className="font-bold">ECE-Engineer</span>.
+        <Step title="College Life at NIT - Surat 💻">
+          Joined NIT-Surat, ECE branch, with dreams of becoming an{" "}
+          <span className="font-bold">ECE Engineer</span>. Bright-eyed and
+          bushy-tailed!
         </Step>
-        <Step title="Yeah - Cracked JEE Mains ✨">
-          One year of preparation for JEE Mains. I was able to crack the exams
-          and got a good grade.
+        <Step title="Cracked JEE Mains ✨">
+          After a year of rigorous preparation, I cracked JEE Mains and secured
+          a good rank. A milestone that made all the hard work worth it!
         </Step>
-        {/* <Step title="Full-Stack Applications 🚀">
-          Started freelancing, developed full-stack applications for clients
-          ranging from E-Commerce stores to static landing pages.
-        </Step>
-        <Step title="GATE Preparation ⚛️">
-          Started preparing for GATE (Graduate Aptitute Test in Engineering).
-          Learnt all the Computer Science subjects again from scratch.
-        </Step> */}
       </ul>
       {isShowingFullTimeline ? (
         <FullTimeline />
       ) : (
-        <button
-          type="button"
-          className="flex items-center text-sm my-4 mx-auto px-4 py-2 rounded-md font-medium text-gray-900 dark:text-gray-100"
+        <Button
+          text="See More"
           onClick={() => showFullTimeline(true)}
-        >
-          See More
-          <svg
-            className="h-4 w-4 ml-1"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M19 9l-7 7-7-7"
-            />
-          </svg>
-        </button>
+          icon={true}
+        />
       )}
     </>
   );

@@ -15,6 +15,23 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "AnuragKharwar.in",
   description: "Personal Portfolio to showcase my skills and projects",
+  openGraph: {
+    type: "website",
+    locale: "en_IE",
+    url: "https://anuragkharwar.in",
+    siteName: "Anurag Kharwar",
+    title: "Anurag Kharwar",
+    description: "Personal Portfolio to showcase my skills and projects",
+    images: [
+      {
+        url: "https://anuragkharwarportfolio.in/assets/anurag_pic.jpg",
+        width: 100,
+        height: 100,
+        alt: "Anurag Kharwar",
+        type: "image/png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -31,6 +48,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
           rel="stylesheet"
         ></link>
+        <link rel="icon" href="/favicon.png" type="image/x-icon" />
       </head>
 
       <body

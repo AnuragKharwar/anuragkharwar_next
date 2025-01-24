@@ -10,7 +10,7 @@ const page = () => {
   return (
     <div className="flex flex-col h-full px-8 ">
       <Header />
-      <Divider className=" h-1 bg-teal-200 animate-pulse duration-50 " />
+      <Divider className=" h-1 bg-teal-300 dark:bg-teal-200 animate-pulse duration-50 " />
       <Education />
       <Divider />
 

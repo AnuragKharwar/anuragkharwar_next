@@ -21,7 +21,7 @@ export default function ProjectCard({
   }
   return (
     <a
-      className="group mb-4 hover:shadow-lg rounded-xl  transition duration-200 relative border-[1px] border-slate-600 border-opacity-25"
+      className="group mb-4 shadow-2xl  hover:shadow-none  rounded-xl  transition duration-200 relative border-[1px] border-slate-600 border-opacity-25 bg-slate-300 dark:bg-transparent"
       href={href}
       aria-label={title}
       target="_blank"
@@ -67,7 +67,7 @@ export default function ProjectCard({
             {tags?.map((tag, idx) => (
               <p
                 key={idx}
-                className={`leading-5 mb-2 dark:border dark:border-zinc-700 text-gray-700 dark:text-gray-300 dark:bg-transparent rounded-md text-xs italic bg-gray-200  mr-2 px-1`}
+                className={`leading-5 mb-2 dark:border dark:border-zinc-700 text-black dark:text-gray-300 dark:bg-transparent rounded-md text-xs italic bg-zinc-400/40 dark:bg-slate-800  mr-2 px-1`}
               >
                 {tag}
               </p>
