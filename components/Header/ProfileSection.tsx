@@ -1,4 +1,10 @@
-import { FileUser, Github, Linkedin, MailIcon } from "lucide-react";
+import {
+  FileUser,
+  Github,
+  Linkedin,
+  MailIcon,
+  MessageCircle,
+} from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -35,12 +41,13 @@ const SocialIcons = () => {
         target="_blank"
       >
         {" "}
-        <Image
+        {/* <Image
           alt="Chat on WhatsApp"
           src="/WhatsApp.svg"
           width={25}
           height={25}
-        />
+        /> */}
+        <MessageCircle className=" hover:text-green-500" width={20} />
       </a>
     </div>
   );

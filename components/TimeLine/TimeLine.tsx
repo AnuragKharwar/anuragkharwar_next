@@ -111,7 +111,7 @@ const Timeline = () => {
         <Step title="Earned a Nickname 😁">
           Automated my hostel room with voice-controlled fans, lights, and door
           locks. Friends got fascinated and started calling me... wait for it...
-          "Jarvis." Marvel fans, unite!
+          Marvel fans, unite!
         </Step>
       </ul>
       <Divider />

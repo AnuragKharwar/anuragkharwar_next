@@ -6,14 +6,7 @@ type ButtonProps = {
   icon?: React.ReactNode;
   className?: string;
 };
-const Button = ({
-  type,
-  text,
-  onClick,
-
-  icon,
-  className,
-}: ButtonProps) => {
+const Button = ({ type, text, onClick, icon, className }: ButtonProps) => {
   return (
     <button
       type={type}
