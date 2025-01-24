@@ -8,28 +8,20 @@ const PortfolioJson = [
     link: "https://dashboard-ui-anurag.netlify.app",
   },
   {
+    title: "GPT-3 Open AI",
+    imgUrl: "/assets/gpt-3.png",
+    stack: ["HTML", "CSS", "Javascript", "React"],
+    description:
+      "A static website for GPT-3 built to practice front-end skills during learning Reactjs along with responsive design and TailwindCSS.",
+    link: "https://gpt3-project-tartufo-118ea3.netlify.app/",
+  },
+  {
     title: "Canvasily.io",
     imgUrl: "/assets/canvasly.png",
     stack: ["TypeScript", "Tailwind", "Nextjs", "Nestjs"],
     description:
       "A web app built on top of Excalidraw inspired by erasor.io to serve basic functionality for drawing and document handling, backed by Clerk.io for login and sign-up, and Nestjs for the backend.",
     link: "https://canvasily.netlify.app/",
-  },
-  {
-    title: "Netflix-clone",
-    imgUrl: "/assets/netflix.jpg",
-    stack: ["Javascript", "React", "Redux", "Firebase"],
-    description:
-      "A Netflix-like web app showcasing front-end skills with a login page, home page, movies page carousel, play movies, and a movie detail page with cast and crew information.",
-    link: "https://nettflex.netlify.app/",
-  },
-  {
-    title: "Food-app",
-    imgUrl: "/assets/foodapp.png",
-    stack: ["Javascript", "React", "Firebase"],
-    description:
-      "A food ordering front-end application built as part of a Udemy course. It features a list of items from Firebase for various restaurants, add-to-cart functionality, and other features.",
-    link: "https://foodapp321.netlify.app/",
   },
   {
     title: "Sorting-Visualizer",
@@ -39,13 +31,23 @@ const PortfolioJson = [
       "A sorting visualization for popular sorting algorithms like bubble sort, insertion sort, selection sort, and quick sort. It has speed control.",
     link: "https://sortingvisualizerbyanurag.netlify.app/",
   },
+
   {
-    title: "GPT-3 Open AI",
-    imgUrl: "/assets/gpt-3.png",
-    stack: ["HTML", "CSS", "Javascript", "React"],
+    title: "Food-app",
+    imgUrl: "/assets/foodapp.png",
+    stack: ["Javascript", "React", "Firebase"],
     description:
-      "A static website for GPT-3 built to practice front-end skills during learning Reactjs along with responsive design and TailwindCSS.",
-    link: "https://gpt3-project-tartufo-118ea3.netlify.app/",
+      "A food ordering front-end application built as part of a Udemy course. It features a list of items from Firebase for various restaurants, add-to-cart functionality, and other features.",
+    link: "https://foodapp321.netlify.app/",
+  },
+
+  {
+    title: "Netflix-clone",
+    imgUrl: "/assets/netflix.jpg",
+    stack: ["Javascript", "React", "Redux", "Firebase"],
+    description:
+      "A Netflix-like web app showcasing front-end skills with a login page, home page, movies page carousel, play movies, and a movie detail page with cast and crew information.",
+    link: "https://nettflex.netlify.app/",
   },
   {
     title: "Space-Invader GAME",

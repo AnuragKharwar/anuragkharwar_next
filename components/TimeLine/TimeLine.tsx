@@ -129,6 +129,11 @@ const Timeline = ({ className }: { className: string }) => {
           Started programming with Arduino using C, later moved to Python for a
           face recognition project. Baby steps into the tech world!
         </Step>
+        <Step title="Dhristi - Tech club 🌞">
+          Selected in Dhristi-AERO Team 🛩️, I was always enthusiastic about
+          planes and drones built them it is my <strong>'Hobby'</strong> now.
+          later became mentor.
+        </Step>
         <Step title="Pandemic Diaries 💀">
           Explored electronics and built projects on microcontrollers and
           microprocessors. Fell headfirst into the world of programming.
@@ -137,10 +142,9 @@ const Timeline = ({ className }: { className: string }) => {
       <Divider />
       <Year>2019</Year>
       <ul>
-        <Step title="College Life at NIT - Surat 💻">
-          Joined NIT-Surat, ECE branch, with dreams of becoming an{" "}
-          <span className="font-bold">ECE Engineer</span>. Bright-eyed and
-          bushy-tailed!
+        <Step title="Once a cadet always a cadet 💪">
+          Joined National Cadet Corps (NCC) Army-wing had an amazing experience
+          for next 3 year.
         </Step>
         <Step title="Cracked JEE Mains ✨">
           After a year of rigorous preparation, I cracked JEE Mains and secured
