@@ -50,7 +50,7 @@ const mobileLinks = [
   },
   {
     name: "Blogs",
-    link: "/blogs",
+    link: "https://medium.com/@anuragkharwarwork",
   },
 ];
 
