@@ -40,7 +40,7 @@ const Projects = ({ title, data }: { title: string; data: any }) => {
             staggerChildren: 0.2, // Delay between child animations
           }}
         >
-          {data.slice(4, 8).map((project: any, index: number) => (
+          {data.slice(4, dataLength).map((project: any, index: number) => (
             <motion.div
               className="gap-4 flex"
               key={index}

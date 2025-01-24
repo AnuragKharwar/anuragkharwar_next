@@ -18,13 +18,13 @@ const page = () => {
       <div className="flex flex-col lg:gap-8">
         <Experience />
         <Divider />
-        <Projects title="Projects" data={PortfolioJson} />
-        <Divider />
-
         <Projects
           title="Freelance & Other Contributions"
           data={freeLanceJson}
         />
+        <Divider />
+
+        <Projects title="Projects" data={PortfolioJson} />
         <Divider />
       </div>
 
