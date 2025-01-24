@@ -12,15 +12,23 @@ const Year = ({ children }: any) => {
   );
 };
 
-const Step = ({ title, children }: any) => {
+const Step = ({
+  title,
+  children,
+}: {
+  title: string;
+  children: React.ReactNode;
+}) => {
   return (
-    <li className="mb-4 ml-2">
+    <li className="mb-4 ">
       <div className="flex items-center mb-2 text-green-700 dark:text-green-300">
         <span className="sr-only">Check</span>
         <CircleCheckBig className="text-blue-500 mr-2" />
-        <p className="font-medium text-gray-900 dark:text-gray-100">{title}</p>
+        <p className="font-medium  text-gray-900 dark:text-gray-100 ">
+          {title}
+        </p>
       </div>
-      <p className="text-gray-700 dark:text-gray-400 ml-6">{children}</p>
+      <p className="text-gray-700 dark:text-gray-400 ml-8">{children}</p>
     </li>
   );
 };
@@ -59,11 +67,11 @@ const FullTimeline = () => (
   </>
 );
 
-const Timeline = () => {
+const Timeline = ({ className }: { className: string }) => {
   const [isShowingFullTimeline, showFullTimeline] = useState(false);
 
   return (
-    <div className="px-8 lg:p-0">
+    <div className={`${className}`}>
       <h3 className="font-bold text-lg lg:text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
         Life Milestones and Progress
       </h3>
