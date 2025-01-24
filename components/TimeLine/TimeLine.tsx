@@ -63,7 +63,7 @@ const Timeline = () => {
   const [isShowingFullTimeline, showFullTimeline] = useState(false);
 
   return (
-    <>
+    <div className="px-8 lg:p-0">
       <h3 className="font-bold text-lg lg:text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
         Life Milestones and Progress
       </h3>
@@ -148,7 +148,7 @@ const Timeline = () => {
           icon={true}
         />
       )}
-    </>
+    </div>
   );
 };
 
