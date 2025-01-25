@@ -4,16 +4,8 @@ const PortfolioJson = [
     imgUrl: "/assets/dashboard.png",
     stack: ["HTML", "SCSS", "Javascript", "redux", "Nextjs"],
     description:
-      "A dashboard to showcase the front-end skills. It has a login,sign-up, todo,kanban,carousel,profile ,notification,email,chart components along with an E-commerce dashboard with analytics and charts.",
+      "A dashboard to showcase my front-end skills. It has a login, sign-up,forgot-password , global store management using redux for login and all along with an E-commerce dashboard with analytics and charts.",
     link: "https://dashboard-ui-anurag.netlify.app",
-  },
-  {
-    title: "GPT-3 Open AI",
-    imgUrl: "/assets/gpt-3.png",
-    stack: ["HTML", "CSS", "Javascript", "React"],
-    description:
-      "A static website for GPT-3 built to practice front-end skills during learning Reactjs along with responsive design and TailwindCSS.",
-    link: "https://gpt3-project-tartufo-118ea3.netlify.app/",
   },
   {
     title: "Canvasily.io",
@@ -23,6 +15,15 @@ const PortfolioJson = [
       "A web app built on top of Excalidraw inspired by erasor.io to serve basic functionality for drawing and document handling, backed by Clerk.io for login and sign-up, and Nestjs for the backend.",
     link: "https://canvasily.netlify.app/",
   },
+  {
+    title: "GPT-3 Open AI",
+    imgUrl: "/assets/gpt-3.png",
+    stack: ["HTML", "CSS", "Javascript", "React"],
+    description:
+      "A static website for GPT-3 built to practice front-end skills during learning Reactjs along with responsive design and TailwindCSS.",
+    link: "https://gpt3-project-tartufo-118ea3.netlify.app/",
+  },
+
   {
     title: "Sorting-Visualizer",
     imgUrl: "/assets/sorting.png",
