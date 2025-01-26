@@ -37,6 +37,7 @@ export const metadata: Metadata = {
 
 // const GA_MEASUREMENT_ID = "G-4RG28L371D";
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+console.log(GA_MEASUREMENT_ID, "GA_MEASUREMENT_ID");
 
 export default function RootLayout({
   children,
