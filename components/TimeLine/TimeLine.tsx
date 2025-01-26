@@ -146,6 +146,10 @@ const Timeline = ({ className }: { className: string }) => {
           Joined National Cadet Corps (NCC) Army-wing had an amazing experience
           for next 3 year.
         </Step>
+        <Step title="Joined NIT-Surat 🎓">
+          Got into NIT-Surat, with a dream of becoming an Engineer.
+        </Step>
+
         <Step title="Cracked JEE Mains ✨">
           After a year of rigorous preparation, I cracked JEE Mains and secured
           a good rank. A milestone that made all the hard work worth it!
