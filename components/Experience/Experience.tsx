@@ -9,7 +9,14 @@ const data = [
     link: "https://idssoft.com/",
     imgUrl: "/assets/sde.png",
     isWorking: true,
-    technologies: ["HTML", "CSS", "Javascript", "React", "Nextjs"],
+    technologies: [
+      "Js/Ts",
+      "css/scss",
+      "React",
+      "Nextjs",
+      "Graphql",
+      "Blockchain",
+    ],
     org: "IDS,Hyderabad",
   },
   {
