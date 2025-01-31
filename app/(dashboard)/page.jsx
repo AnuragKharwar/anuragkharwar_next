@@ -7,6 +7,7 @@ import Experience from "@/components/Experience/Experience";
 import Divider from "@/components/ui/divider";
 import Education from "@/components/Education/Education";
 import Footer from "@/components/ui/footer";
+import Blogs from "@/components/Blogs/Blogs";
 const page = () => {
   return (
     <div className="flex flex-col h-full px-8 ">
@@ -14,6 +15,8 @@ const page = () => {
       <Divider className=" h-1 bg-teal-300 dark:bg-teal-200 animate-pulse duration-50 " />
       <Education />
       <Divider />
+      {/* <Blogs /> */}
+      {/* <Divider /> */}
 
       <div className="flex flex-col lg:gap-8">
         <Experience />
