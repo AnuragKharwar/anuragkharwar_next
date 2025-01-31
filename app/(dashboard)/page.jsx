@@ -29,7 +29,6 @@ const page = () => {
       </div>
 
       <Timeline />
-      <Footer />
     </div>
   );
 };

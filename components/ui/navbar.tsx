@@ -23,6 +23,10 @@ const links = [
     name: "Timeline",
     link: "/timeline",
   },
+  {
+    name: "Blogs",
+    link: "/blogs",
+  },
 ];
 
 const mobileLinks = [

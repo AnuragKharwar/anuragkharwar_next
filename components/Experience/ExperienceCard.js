@@ -24,7 +24,7 @@ export default function ProjectCard({
   }
   return (
     <a
-      className="group mb-4 shadow-2xl  hover:shadow-none rounded-xl  transition duration-200 relative border-[1px] border-slate-600 border-opacity-25 bg-slate-300 dark:bg-transparent"
+      className="group mb-4  hover:shadow-lg rounded-xl  transition duration-200 relative border-[1px] border-slate-600 border-opacity-25 bg-slate-300 dark:bg-transparent"
       href={href}
       aria-label={title}
       target="_blank"

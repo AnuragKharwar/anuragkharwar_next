@@ -11,8 +11,8 @@ export const useTheme = () => {
       setTheme(localTheme);
       document.documentElement.classList.add(localTheme);
     } else {
-      localStorage.setItem("p_theme", "dark");
-      document.documentElement.classList.add("dark");
+      localStorage.setItem("p_theme", theme);
+      document.documentElement.classList.add(theme);
     }
   }, []);
 
