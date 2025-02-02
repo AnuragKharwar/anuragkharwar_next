@@ -41,13 +41,14 @@ const SocialIcons = () => {
         target="_blank"
       >
         {" "}
-        {/* <Image
+        <Image
           alt="Chat on WhatsApp"
-          src="/WhatsApp.svg"
-          width={25}
-          height={25}
-        /> */}
-        <MessageCircle className=" hover:text-green-500" width={20} />
+          src="/whatspp-svg.svg"
+          width={18}
+          height={18}
+          className=""
+        />
+        {/* <MessageCircle className=" hover:text-green-500" width={20} /> */}
       </a>
     </div>
   );
