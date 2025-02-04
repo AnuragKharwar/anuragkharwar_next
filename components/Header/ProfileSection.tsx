@@ -32,6 +32,7 @@ const SocialIcons = () => {
       >
         <MailIcon className=" hover:text-orange-500" width={20} />
       </a>
+
       {/* <a href="https://twitter.com/anuragkharwar" target="_blank">
         <MessageCircle className=" hover:text-green-500" width={20} />
       </a> */}
@@ -43,10 +44,17 @@ const SocialIcons = () => {
         {" "}
         <Image
           alt="Chat on WhatsApp"
-          src="/whatspp-svg.svg"
+          src="/whatsapp-dark.png"
           width={18}
           height={18}
-          className=""
+          className="dark:block hidden"
+        />
+        <Image
+          alt="Chat on WhatsApp"
+          src="/whatsapp-light.png"
+          width={18}
+          height={18}
+          className=" dark:hidden"
         />
         {/* <MessageCircle className=" hover:text-green-500" width={20} /> */}
       </a>
