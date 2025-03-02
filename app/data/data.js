@@ -1,19 +1,19 @@
 const PortfolioJson = [
   {
-    title: "Dashboard-Ecommerce",
-    imgUrl: "/assets/dashboard.png",
-    stack: ["HTML", "SCSS", "Javascript", "redux", "Nextjs"],
-    description:
-      "A dashboard to showcase my front-end skills. It has a login, sign-up,forgot-password , global store management using redux for login and all along with an E-commerce dashboard with analytics and charts.",
-    link: "https://dashboard-ui-anurag.netlify.app",
-  },
-  {
     title: "Canvasily.io",
     imgUrl: "/assets/canvasly.png",
     stack: ["TypeScript", "Tailwind", "Nextjs", "Nestjs"],
     description:
       "A web app built on top of Excalidraw inspired by erasor.io to serve basic functionality for drawing and document handling, backed by Clerk.io for login and sign-up, and Nestjs for the backend.",
     link: "https://canvasily.netlify.app/",
+  },
+  {
+    title: "Dashboard-Ecommerce",
+    imgUrl: "/assets/dashboard.png",
+    stack: ["HTML", "SCSS", "Javascript", "redux", "Nextjs"],
+    description:
+      "A dashboard to showcase my front-end skills. It has a login, sign-up,forgot-password , global store management using redux for login and all along with an E-commerce dashboard with analytics and charts.",
+    link: "https://dashboard-ui-anurag.netlify.app",
   },
   {
     title: "GPT-3 Open AI",
@@ -113,7 +113,7 @@ const freeLanceJson = [
     title: "Doctor Clinic App",
     imgUrl: "/assets/sorting.png",
     stack: ["HTML", "CSS", "Javascript", "React"],
-    link: "https://sortingvisualizerbyanurag.netlify.app/",
+    link: "https://doctor-site-management-fe.vercel.app/",
     description:
       "Worked on front-end design and development along with API integrations.",
     myrole:

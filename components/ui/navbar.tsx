@@ -23,10 +23,10 @@ const links = [
     name: "Timeline",
     link: "/timeline",
   },
-  // {
-  //   name: "Blogs",
-  //   link: "/blogs",
-  // },
+  {
+    name: "Blogs",
+    link: "https://medium.com/@anuragkharwarwork",
+  },
 ];
 
 const mobileLinks = [
