@@ -97,7 +97,7 @@ const freeLanceJson = [
       "Developed the entire front end, including role-based routing and ticket booking with login and registration, venue creation, event creation, seat selection, and payment.",
     myrole:
       "Entire front-end design and development along with API integration",
-    status: "Completed",
+    status: "Currently working",
   },
   {
     title: "MixDrome",
