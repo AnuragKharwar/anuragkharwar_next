@@ -8,13 +8,21 @@ const PortfolioJson = [
     link: "https://canvasily.netlify.app/",
   },
   {
-    title: "Dashboard-Ecommerce",
-    imgUrl: "/assets/dashboard.png",
-    stack: ["HTML", "SCSS", "Javascript", "redux", "Nextjs"],
+    title: "Netflix-clone",
+    imgUrl: "/assets/netflix.jpg",
+    stack: ["Javascript", "React", "Redux", "Firebase"],
     description:
-      "A dashboard to showcase my front-end skills. It has a login, sign-up,forgot-password , global store management using redux for login and all along with an E-commerce dashboard with analytics and charts.",
-    link: "https://dashboard-ui-anurag.netlify.app",
+      "A Netflix-like web app showcasing front-end skills with a login page, home page, movies page carousel, play movies, and a movie detail page with cast and crew information.",
+    link: "https://nettflex.netlify.app/",
   },
+  // {
+  //   title: "Dashboard-Ecommerce",
+  //   imgUrl: "/assets/dashboard.png",
+  //   stack: ["HTML", "SCSS", "Javascript", "redux", "Nextjs"],
+  //   description:
+  //     "A dashboard to showcase my front-end skills. It has a login, sign-up,forgot-password , global store management using redux for login and all along with an E-commerce dashboard with analytics and charts.",
+  //   link: "https://dashboard-ui-anurag.netlify.app",
+  // },
   {
     title: "GPT-3 Open AI",
     imgUrl: "/assets/gpt-3.png",
@@ -42,14 +50,6 @@ const PortfolioJson = [
     link: "https://foodapp321.netlify.app/",
   },
 
-  {
-    title: "Netflix-clone",
-    imgUrl: "/assets/netflix.jpg",
-    stack: ["Javascript", "React", "Redux", "Firebase"],
-    description:
-      "A Netflix-like web app showcasing front-end skills with a login page, home page, movies page carousel, play movies, and a movie detail page with cast and crew information.",
-    link: "https://nettflex.netlify.app/",
-  },
   {
     title: "Space-Invader GAME",
     imgUrl: "/assets/space_invader.png",
