@@ -3,7 +3,7 @@ import ExperienceCard from "@/components/Experience/ExperienceCard";
 const data = [
   {
     title: "Software Developer ",
-    duration: "Dec 2023 - Present",
+    duration: "Sept 2023 - Present",
     details:
       "Working remotely for IDS developing front end for various internal tools and web Products. ",
     link: "https://idssoft.com/",
@@ -21,7 +21,7 @@ const data = [
   },
   {
     title: "Internship",
-    duration: "Sep 2023 - Dec 2023",
+    duration: "June 2023 - Aug 2023",
     details: `Completed Internship on IDS developed Polyversity.io`,
     link: "https://www.polyversity.io/",
     imgUrl: "/assets/sde.png",
@@ -46,9 +46,9 @@ const Experience = () => {
     <div className="flex flex-col h-full gap-4 ">
       <div className="flex items-start gap-4 justify-between">
         <h1 className="text-lg lg:text-3xl font-bold ">Work Experience</h1>
-        <p className="text-gray-500 dark:text-gray-400 text-sm mt-auto">
-          1 year 6 months
-        </p>
+        {/* <p className="text-gray-500 dark:text-gray-400 text-sm mt-auto">
+          2+ years
+        </p> */}
       </div>
       <div className="grid grid-cols-1 gap-4">
         {data.map((experience: any, index: number) => (

@@ -76,7 +76,7 @@ const ProfileSection = () => {
           <a className="font-semibold " href="www.idssoft.com">
             IDS{" "}
           </a>{" "}
-          working as SDE-1 in the product team having 1.5+ years of experience.
+          working as SDE-1 in the product team having 2+ years of experience.
         </p>
       </div>
       <div className="">
