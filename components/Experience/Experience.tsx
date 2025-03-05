@@ -3,7 +3,7 @@ import ExperienceCard from "@/components/Experience/ExperienceCard";
 const data = [
   {
     title: "Software Developer ",
-    duration: "Sept 2023 - Present",
+    duration: "July 2023 - Present",
     details:
       "Working remotely for IDS developing front end for various internal tools and web Products. ",
     link: "https://idssoft.com/",
@@ -21,7 +21,7 @@ const data = [
   },
   {
     title: "Internship",
-    duration: "June 2023 - Aug 2023",
+    duration: "Feb 2023 - May 2023",
     details: `Completed Internship on IDS developed Polyversity.io`,
     link: "https://www.polyversity.io/",
     imgUrl: "/assets/sde.png",

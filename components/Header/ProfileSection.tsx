@@ -12,7 +12,7 @@ const SocialIcons = () => {
   return (
     <div className="flex flex-row gap-4  items-center mt-2">
       <a
-        href="https://drive.google.com/file/d/1d3D_onxSByhVpC9WttWg1lUPTCZC3ei-/view?usp=sharing"
+        href="https://drive.google.com/file/d/1PEGuvqDKlgl1soxAXCoibmSCw85vkxJY/view?usp=drive_link"
         target="_blank"
         className="flex gap-1 items-end bg-teal-200 rounded-lg px-2 py-1 text-black"
       >
