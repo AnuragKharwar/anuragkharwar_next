@@ -92,7 +92,7 @@ const freeLanceJson = [
     title: "ZoomVenue",
     imgUrl: "/assets/ZM.png",
     stack: ["Javascript", "React", "Redux"],
-    link: "https://zoomvenues-ticketing.vercel.app/",
+    link: "https://zmvenue.vercel.app/login",
     description:
       "Developed the entire front end, including role-based routing and ticket booking with login and registration, venue creation, event creation, seat selection, and payment.",
     myrole:
